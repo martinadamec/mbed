@@ -48,6 +48,6 @@ void unity_run_tests(void) {
 
 
 	UnityEnd();
-
+        printf("DONE!");
 }
 
