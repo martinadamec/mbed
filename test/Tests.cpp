@@ -36,7 +36,7 @@ void LEDTest(void) {
 	TEST_ASSERT_EQUAL_HEX32(0xFFFFFFFE, *virtualLeds);
 	led_fake->on();
 	TEST_ASSERT_EQUAL_HEX32(0xFFFFFFFF, *virtualLeds);
-        TEST_ASSERT(false);
+        //TEST_ASSERT(false);
 
 	delete led_fake;
 }
